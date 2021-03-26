@@ -1,0 +1,60 @@
+.background{
+    ext-align: center;
+    background-image: url(./covid-19.jpg);
+    background-size: cover;
+    align-content: center;
+    background-repeat-y: no-repeat;
+    background-repeat-x: no-repeat;
+    overflow-x: hidden;
+    background-attachment: fixed
+}
+
+.container{
+    min-width: max-content;!important;
+    margin-top: 120px;
+    background-color: white;
+}
+
+.form-group{
+    align-content: space-between;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.font-weight-bold{
+    text-align: center;
+}
+
+.login{
+    font-size: 25px;
+    color: #8d1f0b;
+}
+
+.form-control{
+    border: 1px solid #8d1f0b;!important;
+    border-radius: 4px;!important;
+    height: 30px;!important;
+    line-height: 20px;!important;
+}
+
+.buttonLogin{
+    border: 1px solid black;!important;
+    background-color: #4c6e9d;!important;
+    color: white;!important;
+    width: 90%;!important;
+    margin-left: 15px;!important;
+
+}
+
+.form-control:focus{
+    box-shadow: none;!important;
+    border-top: 0px;
+    border-bottom: 1px solid orangered;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.label{
+    font-size: 15px;
+    color: darkslategray;
+}
