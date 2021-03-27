@@ -1,6 +1,6 @@
 .background{
     ext-align: center;
-    background-image: url(./covid-19.jpg);
+    background-image: url(../../covid19_station-master/REGISTER/images/covid-19.jpg);
     background-size: cover;
     align-content: center;
     background-repeat-y: no-repeat;
@@ -31,7 +31,7 @@
 }
 
 .form-control{
-    border: 1px solid #8d1f0b;!important;
+    border: 1px solid gray;!important;
     border-radius: 4px;!important;
     height: 30px;!important;
     line-height: 20px;!important;
@@ -39,19 +39,19 @@
 
 .buttonLogin{
     border: 1px solid black;!important;
-    background-color: #4c6e9d;!important;
+    background-color: #8d1f0b;!important;
     color: white;!important;
     width: 90%;!important;
     margin-left: 15px;!important;
 
 }
+.buttonLogin:hover{
+    color: white;
+    background-color: #d52e10 ;
+}
 
 .form-control:focus{
     box-shadow: none;!important;
-    border-top: 0px;
-    border-bottom: 1px solid orangered;
-    border-left: 0px;
-    border-right: 0px;
 }
 
 .label{

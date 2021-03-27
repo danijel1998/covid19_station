@@ -1,0 +1,25 @@
+.header{
+    height: 60px;
+    background: #105c8a!important;
+    font-weight: bold;
+}
+.nav-link{
+    color: white!important;
+}
+.nav-menu{
+    margin-right: 47px;
+    margin-left: auto;
+}
+.nav-menu li{
+    padding:  0 15px;
+}
+.content{
+    overflow: auto;
+    height: 90%;
+}
+.standard-container{
+    margin: 30px 0;
+}
+.primary-text-color{
+    color: #105c8a;
+}
