@@ -1,3 +1,6 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
+
+
 .header{
     height: 85px;
     background: #105c8a!important;
@@ -70,9 +73,76 @@ footer img{
     border: 1px solid gray;
 }
 
+.back-button{
+    font-size: 25px;
+    color: white;
+    transition: 0.2s ;
+    font-weight: bold;
+}
 
+.back-button:hover{
+    font-size: 28px;
+    transition: 0.2s ;
+    color: white;
+    text-decoration: none!important;
+}
 
 .card:hover{
     box-shadow: #105c8a ;
     border: #105c8a solid 2px;
+}
+
+.btn-primary{
+    background-color: #105c8a;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+button:hover,
+.reset:hover {
+    opacity: .8;
+}
+
+button:active,
+.reset:active {
+    opacity: .5;
+}
+
+div.check-box-holder h3{
+    color: #105c8a;
+}
+
+.text-center{
+    margin-top: 15px;
+}
+
+.check-box-holder{
+    margin-bottom: 30px;
+}
+
+.check-box-holder input{
+    margin-left: 50px;
+}
+
+.check-box-holder label{
+    margin-left: 70px;
+}
+.image-download{
+    max-width: 70px;
+    max-height: 70px;
+}
+.download-file-paragraph{
+    font-size: 20px;
+}
+.text-pcr-result{
+    text-decoration: underline;
+}
+.pdf-img{
+    max-width: 30px;
+}
+.accordion-card{
+    border: 2px solid gray;
 }

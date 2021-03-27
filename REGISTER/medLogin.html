@@ -7,25 +7,25 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="./loginStyle.css">
-    <link rel="icon" href="images/virus-4986063_960_720.png" type="images/x-icon"/>
-    <link rel="shortcut icon" href="images/virus-4986063_960_720.png" type="image/x-icon"/>
     <script src="./script.js"></script>
     <title>LOGIN</title>
+    <link rel="icon" href="images/virus-4986063_960_720.png" type="images/x-icon"/>
+    <link rel="shortcut icon" href="images/virus-4986063_960_720.png" type="image/x-icon"/>
 </head>
 <body class="background">
 <div class="row">
     <form action="./register.php" method="post" class="container form-group col-3 p-4">
         <div class="login font-weight-bold p-3">
             <div class="mb-1 ">
-                <img src="images/doctor-fi.png">
+                <img src="images/hospital.png">
             </div>
             Covid-19 Station
         </div>
-        <label class="font-weight-bold mt-2 label" for="id">Jedinstveni Maticni Broj Gradjana: </label>
+        <label class="font-weight-bold mt-2 label" for="id">Id Zdravstvene Ustanove: </label>
         <input type="text" id="id" class="form-control" required onchange="idCheck()">
-        <label class="font-weight-bold mt-2 label" for="idCard">Broj Zdravstvene Knjizice: </label>
+        <label class="font-weight-bold mt-2 label" for="idCard">Sifra Zdravstvene Ustanove: </label>
         <input type="text" id="idCard" class="form-control" onchange="idCardCheck()" required >
-        <div class="w-100"><a type="submit" id="buttonSubmit" href="home.html" class="btn buttonLogin  mt-4">Prijavi Se</a></div>
+        <div class="w-100"><a type="submit" id="buttonSubmit" href="medHome.html" class="btn buttonLogin  mt-4">Prijavi Se</a></div>
     </form>
 </div>
 

@@ -2,9 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <title>Home-Covid-19 Station</title>
+    <link rel="icon" href="images/virus-4986063_960_720.png" type="images/x-icon"/>
+    <link rel="shortcut icon" href="images/virus-4986063_960_720.png" type="image/x-icon"/>
 </head>
-<body>
+<body class="vh-100">
+<nav class="navbar header navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="images/logo.png" class="logo-image"></a>
+    <a href="home.html" class="back-button">
+        <i class="bi bi-chevron-left"></i>
+    </a>
 
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarNav">
+        <ul class="navbar-nav  nav-menu">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Informacije</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Cesta Pitanja</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">O nama</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Odjavi Se</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container mt-5">
+    <h1 class="text-center primary-text-color">Preuzmite recept</h1>
+    <div>
+        <h2 class="ml-3">Panklav:</h2>
+        <div class="d-flex">
+            <img src="images/download.png">
+            <div class="mt-3">
+                <p class="text-info font-weight-bold">Lijek propisao: dr. Marko Markovic</p>
+                <p class="text-info font-weight-bold">Lijek poprisan: Janku Jankovicu</p>
+                <p class="text-info font-weight-bold">Doza: svakih 24h jedna tableta</p>
+                <p class="text-info font-weight-bold">Recept vrijedi do: 1.9.2021.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+<script src="script.js"></script>
 </body>
 </html>
