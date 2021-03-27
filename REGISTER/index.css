@@ -1,5 +1,5 @@
 .header{
-    height: 60px;
+    height: 85px;
     background: #105c8a!important;
     font-weight: bold;
 }
@@ -13,13 +13,66 @@
 .nav-menu li{
     padding:  0 15px;
 }
-.content{
-    overflow: auto;
-    height: 90%;
+.logo-image{
+    max-width: 255px;
 }
 .standard-container{
-    margin: 30px 0;
+
+}
+.chart img{
+    max-width: 100%;
 }
 .primary-text-color{
     color: #105c8a;
+}
+.table th{
+    background-color: #105c8a;
+    color: white;
+    border-right: red;
+}
+
+footer{
+    margin-top: 30px;
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding: 2rem;
+}
+
+footer a{
+    color: #d5d5d5;
+}
+
+hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+footer img{
+    max-width: 220px;
+}
+.card-body p{
+    color: #105c8a;
+    font-weight: bold;
+    font-size: 20px;
+}
+.card :hover{
+    text-decoration: none!important;
+    text-underline: none!important;
+}
+.card img{
+    padding: 30px;
+}
+.card{
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+
+
+.card:hover{
+    box-shadow: #105c8a ;
+    border: #105c8a solid 2px;
 }

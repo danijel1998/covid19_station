@@ -1,45 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
     <title>Home-Covid-19 Station</title>
 </head>
 <body>
-    <nav class="navbar header navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse " id="navbarNav">
-            <ul class="navbar-nav  nav-menu">
-                <li class="nav-item active">
-                    <a class="nav-link" href="../../covid19_station-master/REGISTER/login.php">Prijavi Se <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Informacije</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Cesta Pitanja</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">O Nama</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-<div class="content container standard-container mt-5">
-    <h1 class="text-center primary-text-color mb-5">COVID-19 STATION</h1>
-    <div class="chart">
-
-        <img src="images/opera_AJQLBSCPNL.png" alt="covid 19 chart">
+<nav class="navbar header navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="images/logo.png" class="logo-image"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarNav">
+        <ul class="navbar-nav  nav-menu">
+            <li class="nav-item">
+                <a class="nav-link" href="login.html">Prijavi se</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Informacije</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Cesta Pitanja</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">O nama</a>
+            </li>
+        </ul>
     </div>
-    <div class="symptoms ">
+</nav>
+
+<div class=" container standard-container mt-5 ">
+    <h1 class="text-center primary-text-color mb-5">COVID-19 STATION</h1>
+    <div class="chart-section row">
+        <div class=" col-md-8  chart">
+            <img src="images/opera_AJQLBSCPNL.png" alt="covid 19 chart">
+        </div>
+        <div class="chart-table  col-md-4">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>Grad</th>
+                    <th>Slucajevi</th>
+                    <th>Oporavljeni</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Banja Luka</td>
+                    <td>14854</td>
+                    <td>4532</td>
+                </tr>
+
+                <tr>
+                    <td>Bijeljina</td>
+                    <td>5207</td>
+                    <td>1877</td>
+                </tr>
+
+                <tr>
+                    <td>Trebinje</td>
+                    <td>2442</td>
+                    <td>619</td>
+                </tr>
+                </tbody>
+
+
+            </table>
+        </div>
+    </div>
+    <div class="symptoms mt-5">
         <div>
-            <h3 class="text-warning">Veoma Cesti Simptomi:</h3>
+            <h3 class="text-info">Veoma Cesti Simptomi:</h3>
             <ul>
                 <li>Povisena temperatura</li>
                 <li>Suhi kasalj</li>
@@ -68,15 +104,52 @@
         </div>
         <div>
             <p class="text-danger font-weight-bold">Odmah zatražite ljekarsku pomoć ako imate ozbiljne simptome. Klikom
-                na <a href="login.php" class="">Prijavi Se</a> mozete da zakazete pregled u najblizoj covid ambulati.</p>
-            <p class="text-warning font-weight-bold">Osobe s blagim simptomima koje su inače zdrave trebaju liječiti simptome kod kuće.</p>
-            <p class="text-info font-weight-bold">Do pojave simptoma u prosjeku dolazi 5 do 6 dana od kontakta s virusom, a ponekad i do 14 dana.</p>
+                na <a href="login.html" class="">Prijavi Se</a> mozete da zakazete pregled u najblizoj covid ambulati.
+            </p>
+            <p class="text-warning font-weight-bold">Osobe s blagim simptomima koje su inače zdrave trebaju liječiti
+                simptome kod kuće.</p>
+            <p class="text-info font-weight-bold">Do pojave simptoma u prosjeku dolazi 5 do 6 dana od kontakta s
+                virusom, a ponekad i do 14 dana.</p>
         </div>
     </div>
-    <div class="recommendations"><a href="https://www.zzjzdnz.hr/zdravlje/prevencija-zaraznih-bolesti/1368">LINK</a></div>
-    <div class="supplements "><a href="https://arnicentar.com/kako-ojacati-imunitet-corona-virus/">LINK</a></div>
 
 </div>
+
+<footer>
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img src="images/logo.png">
+                <hr class="light">
+                <p>555-555-5555</p>
+                <p>email@email.com</p>
+                <p>000 Naziv Ulice</p>
+                <p>Grad, Poštanski broj</p>
+            </div>
+            <div class="col-md-4">
+                <hr class="light">
+                <h5>Radno vrijeme</h5>
+                <hr class="light">
+                <p>Ponedeljak - Petak: 9:00 - 17:00</p>
+                <p>Subota: 10:00 - 16:00</p>
+                <p>Nedelja: zatvoreno</p>
+            </div>
+            <div class="col-md-4">
+                <hr class="light">
+                <h5>Dostupne lokacije</h5>
+                <hr class="light">
+                <p>Grad, Poštanski broj</p>
+                <p>Grad, Poštanski broj</p>
+                <p>Grad, Poštanski broj</p>
+                <p>Grad, Poštanski broj</p>
+            </div>
+            <div class="col-12">
+                <hr class="light-100">
+                <h5>&copy; linkstranice.com</h5>
+            </div>
+        </div>
+    </div>
+</footer>
 
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

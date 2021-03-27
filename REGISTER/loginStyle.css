@@ -1,6 +1,6 @@
 .background{
     ext-align: center;
-    background-image: url(../../covid19_station-master/REGISTER/images/covid-19.jpg);
+    background-image: url(images/virus-covid-ncp-corona-background-cell-illustration-176356575.jpg);
     background-size: cover;
     align-content: center;
     background-repeat-y: no-repeat;
@@ -27,7 +27,7 @@
 
 .login{
     font-size: 25px;
-    color: #8d1f0b;
+    color: #1583c2;
 }
 
 .form-control{
@@ -39,7 +39,7 @@
 
 .buttonLogin{
     border: 1px solid black;!important;
-    background-color: #8d1f0b;!important;
+    background-color: #1583c2;!important;
     color: white;!important;
     width: 90%;!important;
     margin-left: 15px;!important;
@@ -47,7 +47,7 @@
 }
 .buttonLogin:hover{
     color: white;
-    background-color: #d52e10 ;
+    background-color: #1583c2 ;
 }
 
 .form-control:focus{
